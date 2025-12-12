@@ -1,8 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-// TODO: Replace this URL with your personal MockAPI endpoint
-// Example: https://640000000000.mockapi.io/contacts
 axios.defaults.baseURL = "https://690a7cea1a446bb9cc22b0b1.mockapi.io/contacts/contacts";
 
 export const fetchContacts = createAsyncThunk(
